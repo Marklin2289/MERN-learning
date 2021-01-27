@@ -1,0 +1,17 @@
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  color: white;
+  background: black;
+  border-radius: 50%;
+  cursor: pointer;
+
+  transition: transform 1s;
+}
+
+.isActive {
+  transform: scale(1.5, 1.5) translateX(100px) rotate3d(0, 0, 1, 360deg);
+}
